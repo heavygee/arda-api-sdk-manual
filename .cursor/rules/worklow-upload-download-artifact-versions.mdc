@@ -1,0 +1,5 @@
+---
+description: when making and editing workflows that have artifacts
+alwaysApply: false
+---
+The workflow failed because it's using a deprecated version of the actions/upload-artifact and actions/download-artifact actions. The log clearly states: "This request has been automatically failed because it uses a deprecated version of actions/upload-artifact: v3."
