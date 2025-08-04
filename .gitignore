@@ -1,0 +1,27 @@
+# Environment variables
+.env
+
+# mitmproxy files
+mitm_logs/arda_traffic.flow
+mitm_certs/
+
+# Generated SDK files (keep the source, ignore build artifacts)
+mitm_logs/arda-api-sdk-browser/node_modules/
+mitm_logs/arda-api-sdk-browser/dist/
+mitm_logs/arda-api-sdk-browser/.npmrc
+
+# Docker
+.dockerignore
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log 
